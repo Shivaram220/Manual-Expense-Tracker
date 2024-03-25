@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="homestyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e539738574.js" crossorigin="anonymous"></script>
+    <script src="Validation.js"></script>
+</head>
+<body>
+    <div id="Register-page">
+        <div class="container">
+            <div class="form-container">
+                <h1>Sign Up / Register</h1>
+                <form action="First" name="myform" method="post">
+                    <div class="input-data">
+                        <i class="fa-solid fa-signature"></i>
+                        <input type="name" name="FirstName" placeholder="First Name">
+                    </div>
+                    <div class="input-data">
+                        <i class="fa-solid fa-signature"></i>
+                        <input type="name" name="LastName" placeholder="Last Name">
+                    </div>
+                	
+                    <div class="input-data">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="email" name="Email" placeholder="Username or Email">
+                    </div>
+                    <div class="input-data">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="Password" placeholder="password">
+                    </div>
+                    <div class="password-conditions">
+                        <h4>Password should satisfy all below conditions</h4>
+                        <p>Password should be length at least 8 characters</p>
+                        <p>Password should contain lowercase letters</p>
+                        <p>Password should contain uppercase letters</p>
+                        <p>password should contain numbers</p>
+                        <p>password should contain a special character</p>
+                    </div>
+                    <div class="input-data">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="ConfirmPassword" placeholder="Confirm password">
+                    </div>
+                    <!-- <button class="btn" onclick="formValidation()">Register</button> -->
+                    <input type="submit" class="btn" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

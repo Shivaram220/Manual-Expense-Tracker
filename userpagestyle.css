@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar h1{
+   color: azure;
+   position: absolute;
+   top: 30px;
+   left: 550px;
+}
+.nav-bar{
+    height:60px;
+    background-color: rgb(57, 148, 209);
+}
+.logout-btn{
+    position: relative;
+}
+.logout-btn input{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    top: 5px;
+    /* background-color: rgb(188, 206, 26); */
+    border-radius: 8px;
+    font-size: larger;
+    transition: background 1s;
+}
+.logout-btn input:hover{
+    background-color: rgb(225, 166, 90);
+}
+.user-expenses{
+    margin-left: 18vw;
+    margin-top: 2vw;
+}
+table{
+    border: 3px solid rgb(141, 210, 247);
+    width: 60vw;
+    padding: 20px;
+}
+/* .table-row{ */
+    /* border: 3px solid rgb(17, 87, 128); */
+/* } */
+tr{
+    margin: 20px;
+}
+table th{
+    width: 150px;
+    height: 45px;
+    border: 3px solid rgb(17, 87, 128);
+    padding: auto;
+}
+table td{
+    height: 40px;
+    border: 2px solid rgb(219, 221, 68);
+    text-align: center;
+}
+.add-expense-details,.delete-expense-details{
+    width: 21vw;
+    display: inline-block;;
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    display: none;
+    margin: 20px;
+    padding: 25px;
+}
+.add-expense-details input,.delete-expense-details input{
+    padding-left: 15px;
+    margin-top: 18px;
+    height: 50px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: large;
+}
+.add-expense-details input::placeholder,.delete-expense-details input::placeholder{
+    font-size: larger;
+}
+
+#addExpenseButton{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    top: 5px;
+    border-radius: 8px;
+    font-size: medium;
+    transition: background 1s;
+}
+#addExpenseButton:hover{
+    background-color: rgb(225, 166, 90);
+}
+.calculated-Expense{
+    padding: 20px;
+    width: 400px;
+    border: 3px solid green;
+}
+.expense{
+    border-radius: 5px;
+    border: 3px solid rgb(231, 178, 178);
+    padding: 14px;
+    margin: 10px;
+    background-color: aqua;
+}
